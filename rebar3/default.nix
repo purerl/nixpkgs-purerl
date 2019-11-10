@@ -3,7 +3,7 @@
   tree, hexRegistrySnapshot }:
 
 let
-  version = "3.9.0";
+  version = "3.11.0";
 
   bootstrapper = ./rebar3-nix-bootstrap;
 
@@ -75,7 +75,7 @@ stdenv.mkDerivation {
 
   src = fetchurl {
     url = "https://github.com/rebar/rebar3/archive/${version}.tar.gz";
-    sha256 = "14prx5bkyy9sisnp5rj2058xpylq80xygsj1hq8b7m0awvj3r9wy";
+    sha256 = "08cl421sclh4ig75j4y3n57idy2blb5afldia1kf2q7xbjzngxfh";
   };
 
   inherit bootstrapper;

@@ -7,7 +7,7 @@ self: super:
         sha256 = "00cg8i2nqx6vad4k0024mg178kibgvn1hz9srj1b9vjbxg47xn6j";
       });
 
-      rebar3-9 = super.callPackage ./rebar3 {
+      rebar3-11 = super.callPackage ./rebar3 {
         erlang = self.devPackages.erlang-21-2-4.erlang;
       };
     };
@@ -25,7 +25,7 @@ self: super:
         autoreconfFlags = "make";
       });
 
-      rebar3-9 = super.callPackage ./rebar3 {
+      rebar3-11 = super.callPackage ./rebar3 {
         erlang = self.devPackages.erlang-22-0-1.erlang;
       };
     };
