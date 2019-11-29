@@ -1,4 +1,3 @@
-# Nixpkgs overlay which aggregates overlays, stolen from Mozilla
 self: super:
 
 with super.lib;
@@ -6,7 +5,6 @@ with super.lib;
 let
   overlays =
     [
-      ./erlang-overlay.nix
       ./purerl-overlay.nix
     ];
 in

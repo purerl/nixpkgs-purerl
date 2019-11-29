@@ -7,8 +7,8 @@ with import <nixpkgs> {
 stdenv.mkDerivation {
   name = "example-build-shell";
   buildInputs = [
-    pkgs.devPackages.erlang-22-0-1.erlang
-    pkgs.devPackages.erlang-22-0-1.rebar3-11
+    pkgs.devPackages.purerl-0-13-5
+    pkgs.psc-package
   ];
 }
 
