@@ -7,7 +7,9 @@ let
 
   dynamic-linker = pkgs.stdenv.cc.bintools.dynamicLinker;
 
-  patchelf = libPath: ''
+  patchelf = libPath: if pkgs.stdenv.isDarwin
+    then ""
+    else ''
           chmod u+w $PURS
           patchelf --interpreter ${dynamic-linker} --set-rpath ${libPath} $PURS
           chmod u-w $PURS
