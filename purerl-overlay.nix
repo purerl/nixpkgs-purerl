@@ -8,6 +8,7 @@ self: super:
     purerl-0-0-5 = super.callPackage ./purerl/0.0.5.nix {};
     purerl-0-0-6 = super.callPackage ./purerl/0.0.6.nix {};
     purerl-0-0-7 = super.callPackage ./purerl/0.0.7.nix {};
+    purerl-0-0-8 = super.callPackage ./purerl/0.0.8.nix {};
   };
 }
 
