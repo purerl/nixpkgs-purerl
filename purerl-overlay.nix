@@ -10,6 +10,7 @@ self: super:
     purerl-0-0-7 = super.callPackage ./purerl/0.0.7.nix {};
     purerl-0-0-8 = super.callPackage ./purerl/0.0.8.nix {};
     purerl-0-0-9 = super.callPackage ./purerl/0.0.9.nix {};
+    purerl-0-0-10 = super.callPackage ./purerl/0.0.10.nix {};
   };
 }
 
