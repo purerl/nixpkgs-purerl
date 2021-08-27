@@ -7,7 +7,7 @@ with import <nixpkgs> {
 stdenv.mkDerivation {
   name = "example-build-shell";
   buildInputs = [
-    pkgs.purerl.purerl-0-0-4
+    pkgs.purerl.purerl-0-0-12
     pkgs.purescript
   ];
 }
