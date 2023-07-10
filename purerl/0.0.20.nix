@@ -14,11 +14,11 @@ let
     };
     "aarch64-linux" = {
       url = "https://github.com/purerl/purerl/releases/download/v${version}/linux-aarch64.tar.gz";
-      sha256 = "05y2m05kp5r8b1k9075r21mqclihgrlikw94a08bc4i3qcgv1lx4";
+      sha256 = "0d8xrxb1b0dvabl3ivq22an9r11i8mghj9hmhw8qd4s1qsyscjc2";
     };
     "aarch64-darwin" = {
       url = "https://github.com/purerl/purerl/releases/download/v${version}/macos-arm64.tar.gz";
-      sha256 = "1mrdlilzi665qbw994kbfgwyrbylhvxh8jmcldcrnb5s128cdb4d";
+      sha256 = "0yla20vz1s51gc212cplywkh02bw2x7hxlwv4cldzba2qsgkcvdx";
     };
   };
 
