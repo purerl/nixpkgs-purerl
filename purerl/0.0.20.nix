@@ -13,11 +13,11 @@ let
       sha256 = "128ly5wr64mxzzdlyniahkrardx7lv9sssdv8hdnz1vvqiqyj0y7";
     };
     "aarch64-linux" = {
-      url = "https://github.com/purerl/purerl/releases/download/v${version}/aarch64.tar.gz";
+      url = "https://github.com/purerl/purerl/releases/download/v${version}/linux-aarch64.tar.gz";
       sha256 = "05y2m05kp5r8b1k9075r21mqclihgrlikw94a08bc4i3qcgv1lx4";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/purerl/purerl/releases/download/v${version}/arm64.tar.gz";
+      url = "https://github.com/purerl/purerl/releases/download/v${version}/macos-arm64.tar.gz";
       sha256 = "1mrdlilzi665qbw994kbfgwyrbylhvxh8jmcldcrnb5s128cdb4d";
     };
   };
