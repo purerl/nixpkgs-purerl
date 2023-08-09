@@ -30,6 +30,7 @@
           purerl-0-0-18 = pkgs.mkShell { buildInputs = [ packages.purerl-0-0-18 ]; };
           purerl-0-0-19 = pkgs.mkShell { buildInputs = [ packages.purerl-0-0-19 ]; };
           purerl-0-0-20 = pkgs.mkShell { buildInputs = [ packages.purerl-0-0-20 ]; };
+          purerl-0-0-21 = pkgs.mkShell { buildInputs = [ packages.purerl-0-0-21 ]; };
         };
       });
 }
